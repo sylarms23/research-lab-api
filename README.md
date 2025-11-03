@@ -88,7 +88,7 @@ Esto evita que terceros puedan leer o modificar los datos.
 ### ✅ Ejemplo
 En la barra de direcciones de un navegador, el **candado cerrado 🔒** indica que el sitio usa HTTPS.
 
-![https_1](.images/https_1.png)
+![https_1](images/https_1.png)
 
 ![https_2](.images/https_2.png)
 
