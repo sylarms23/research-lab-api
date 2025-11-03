@@ -90,13 +90,13 @@ En la barra de direcciones de un navegador, el **candado cerrado 🔒** indica q
 
 ![https_1](images/https_1.png)
 
-![https_2](.images/https_2.png)
+![https_2](images/https_2.png)
 
-![https_3](.images/https_3.png)
+![https_3](images/https_3.png)
 
 `https://www.google.cl` → 🔒 Conexión segura 
 
-![http_1](.images/http_1.png)
+![http_1](images/http_1.png)
 
 `http://www.example.com` → ⚠️ Conexión no cifrada
 
@@ -265,12 +265,12 @@ Content-Type: application/json; charset=utf-8
 ➡️ Aclaracion: Aunque el navegador muestre `{}`, el **status code real** es `404`:
 Cuando abrimos una URL de una API REST como https://jsonplaceholder.typicode.com/posts/99999, el navegador muestra una página vacía ({}), pero si inspeccionamos la respuesta HTTP (inspeccionar pagina con f12 y luego en la pestaña network), vemos que el código de estado real es 404 Not Found.
 
-![Inspeccionar_404](.images/404_error_inspeccionar.png)
+![Inspeccionar_404](images/404_error_inspeccionar.png)
 
 
 Esto ocurre porque las APIs devuelven respuestas en formato JSON, no páginas de error HTML. Los códigos de estado son entendidos por aplicaciones o herramientas como Postman, no por el navegador directamente, a diferencia de las paginas que no utlizan APIs, muestran el error 404 directamente en pantalla, como por ejemplo la pagina https://google.cl/prueba_error
 
-![Google.cl/prueba_error](.images/404_error.png)
+![Google.cl/prueba_error](images/404_error.png)
 
 ---
 
